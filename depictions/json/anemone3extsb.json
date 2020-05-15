@@ -1,0 +1,198 @@
+{
+	"class":"DepictionTabView",
+	"minVersion":"0.3",
+	"headerImage":"https://pbs.twimg.com/profile_banners/2908644984/1548832898/1500x500",
+	"tintColor":"#f86699",
+	"tabs":[
+		{
+			"class":"DepictionStackView",
+			"tabname":"Details",
+			"views":[
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"Unpack the full potential of your device with a proper theming engine for iOS 11 and higher!\n\nAnemone is a theming engine for iOS that allows users to use themes on jailbroken iOS devices.",
+					"useSpacing":true
+				},
+				{
+				    "class":"DepictionMarkdownView",
+				    "markdown":"#### SpringBoard Extension Pack\n\nThis is the SpringBoard extension pack for Anemone which adds the following features on top of the minimal config:\n\n1. Custom Badges\n2. Page Dots\n3. Dock Icon Reflections\n4. Blurred Dock Icon Reflections\n5. Folder Icon Overlays\n6. Folder Icon Corner Radius\n7. Custom Folder Icons",
+				    "useSpacing":true
+				},
+				{
+					"class":"DepictionScreenshotsView",
+					"itemCornerRadius":12.8,
+					"itemSize":"{160, 346}",
+					"screenshots":[
+						{
+							"accessibilityText":"Screenshot",
+							"url":"https://repo.theodyssey.dev/depictions/assets/org.coolstar.anemone-screen1.png"
+						},
+						{
+							"accessibilityText":"Screenshot",
+							"url":"https://repo.theodyssey.dev/depictions/assets/org.coolstar.anemone-screen2.png"
+						},
+						{
+							"accessibilityText":"Screenshot",
+							"url":"https://repo.theodyssey.dev/depictions/assets/org.coolstar.anemone-screen4.png"
+						}
+					]
+				},
+				{
+					"class":"DepictionSeparatorView"
+				},
+				{
+					"class":"DepictionHeaderView",
+					"title":"Information"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"September 1, 2020",
+					"title":"Updated"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"Free Package",
+					"title":"License"
+				}
+			]
+		},
+		{
+			"class":"DepictionStackView",
+			"tabname":"Changelog",
+			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta13",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 13.5.1+ on odysseyra1n",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta12",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for A12/A13 up to iOS 13.5",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta11",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 13",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta9",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix ModernDock overlays",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta8",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 12.2",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta7",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix folder theming on A12",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta6",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for modern dock themes (iPhone only for now)",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta5",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix dock reflections on A12",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta4",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 12 and A12",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta3",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Clock Icon now changes properly on theme switch\n2. Add support for extensions to Anemone",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Initial support for theming clock icon\n2. Add API's that will be used in a later beta and the extension pack",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"Initial Public Beta Release!",
+					"useSpacing":true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,185 @@
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta22
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: debs/com.anemonetheming.anemone3_3.0~beta22_iphoneos-arm.deb
+Size: 806128
+MD5sum: 93e47f4c5158f706509e26d5379bc505
+SHA1: 204e0a4b31b3b085eca06082f3b8c6b6fb69bebe
+SHA256: 4c3dbef6606c888e368c7eadc7f8f382202fd14612a299b971c50fdaf2246d9b
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
+Name: Anemone 3
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3.json
+
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta13
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta13_iphoneos-arm.deb
+Size: 37096
+MD5sum: 9618053b9a8dc95176bf1efd35c8a814
+SHA1: 648d94e6219636f06fa4a1e4123e5bd2f5626a85
+SHA256: 4ce3f3ca7adeef713847d1ba6862d518fc34b66121a0e53600254637118576ad
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
+
+Package: com.muirey03.libmryipc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 196
+Filename: debs/com.muirey03.libmryipc_1.0_iphoneos-arm.deb
+Size: 12268
+MD5sum: 6957cf6c9b35f7d7bcf4920a52886442
+SHA1: 42992200cad14c69f466ccf902457636361f55c0
+SHA256: d433f62d0819c2d2e1b4a9656eea34550733f4acc612e3353b5485f4d723a7bf
+Section: System
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer
+Author: Muirey03
+Name: libMRYIPC
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
+
+Package: org.coolstar.libhooker
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/org.coolstar.libhooker_1.3.0_iphoneos-arm.deb
+Size: 46920
+MD5sum: 8291f3681b3d421b2e4213b358dad6d1
+SHA1: 37309409527b83da376f150387f429372194ddcb
+SHA256: 7271441326789b7808af155564380b1a9d706c477f937212a48f799519e6c1d2
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker
+
+Package: org.coolstar.safemode
+Version: 1.1.2-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: debs/org.coolstar.safemode_1.1.2-2_iphoneos-arm.deb
+Size: 62576
+MD5sum: 447dc63d21549fc3493bae98a0d9d96c
+SHA1: d8b46294a5845dabfd1f8861a64bff15ddcb47f1
+SHA256: d02a4ef5f46c7a8a42ea4ca98c2cd4d66c283ade2bf8c577d5d23fb89f25ac8e
+Section: System
+Description: Safe Mode app for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Safe Mode (libhooker)
+
+Package: org.coolstar.sileo
+Version: 2.0.0b6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Installed-Size: 12652
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
+Size: 3300178
+MD5sum: 0c895e038a1c13e4af04a46aac1eb10e
+SHA1: 5f81b9e70ee95d44826139db13e89336ff5186c5
+SHA256: c25f66dd6683ff926fa9004d0c51571d2a0e8d4da2ffa5696a6bad51f43659e8
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileobeta
+Version: 2.0.0b4-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>=1.9.3)
+Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileobeta_2.0.0b4-1_iphoneos-arm.deb
+Size: 3288624
+MD5sum: 8fca3f3db139776019e1cbd8875bd73c
+SHA1: 463104feba07ad03ec2ec546d7b01b7a79e8196a
+SHA256: 2d2ac393229271b47d716ae6879b1968ade3cd33598c346c21da8dd086c26b28
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo (Beta Channel)
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.swift.libswift
+Version: 5.0-electra2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0)
+Filename: debs/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Size: 23330860
+MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
+SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
+SHA256: 07adbccbde8682adb44e8dcf0bdd6bef5c909d879ca654e6533f8a52f1884ced
+Section: Development
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Dev: kabiroberai
+Name: libswift (stable)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+
+Package: preferenceloader
+Version: 3.0.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_3.0.2_iphoneos-arm.deb
+Size: 16744
+MD5sum: 2ce56dc9298e30faac2ee9e832a33e41
+SHA1: ba96fbd660f9f0981ddff644bffa3a63638dae1b
+SHA256: cf088765311c630c847c15b2a88b3863d34c7069a7d96c483138aa16b45c6b54
+Section: System
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Dev: dustinhowett
+Name: PreferenceLoader
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
+

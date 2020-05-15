@@ -1,0 +1,17 @@
+Origin: Odyssey Repo
+Label: Odyssey Repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: odyssey-ios
+Description: CoolStar Additions for the Odyssey jailbreak
+Date: Tue, 22 Sep 2020 23:26:59 +0000
+MD5Sum:
+ c06effea139f3c615d62500f7e03d317 7944 Packages
+ edd830dd21ff6fe5f91893dc627bb623 2802 Packages.bz2
+ 4db860d54b88502c607a074ae42618a6 2592 Packages.xz
+SHA256:
+ e776af88718a0451d4758b1863e76934be3b40098c212cbaa123bddc76ec01b7 7944 Packages
+ 356b3c588a3c431146d54b365209cc3d74a442bc62fa9ef28a8b2d2712256bb9 2802 Packages.bz2
+ 08320510760a72e217d14ed7798100dfb046418c070b8ed694b76653eb79196b 2592 Packages.xz
