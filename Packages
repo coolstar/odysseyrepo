@@ -37,22 +37,6 @@ Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
 Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
 
-Package: com.muirey03.libmryipc
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Muirey03
-Installed-Size: 196
-Filename: debs/com.muirey03.libmryipc_1.0_iphoneos-arm.deb
-Size: 12268
-MD5sum: 6957cf6c9b35f7d7bcf4920a52886442
-SHA1: 42992200cad14c69f466ccf902457636361f55c0
-SHA256: d433f62d0819c2d2e1b4a9656eea34550733f4acc612e3353b5485f4d723a7bf
-Section: System
-Description: Easy-to-use, RocketBootstrap-less iOS IPC
-Tag: role::developer
-Author: Muirey03
-Name: libMRYIPC
-
 Package: com.rpetrich.rocketbootstrap
 Version: 1.1.0~libhooker2
 Architecture: iphoneos-arm
@@ -105,18 +89,18 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Safe Mode (libhooker)
 
 Package: org.coolstar.sileo
-Version: 2.0.0b6
+Version: 2.0.0b7
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Installed-Size: 12652
+Installed-Size: 12728
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
-Size: 3300178
-MD5sum: 0c895e038a1c13e4af04a46aac1eb10e
-SHA1: 5f81b9e70ee95d44826139db13e89336ff5186c5
-SHA256: c25f66dd6683ff926fa9004d0c51571d2a0e8d4da2ffa5696a6bad51f43659e8
+Filename: debs/org.coolstar.sileo_2.0.0b7_iphoneos-arm.deb
+Size: 3411184
+MD5sum: 79c9b90298b40802b2df3ab31ca40cfd
+SHA1: dfd419cbb1ae2ec39a70ec5f79e3ab9b515ea64d
+SHA256: 7f8110b73174589e0b72f2cc8c10f4f950429e3b32a62a1d936550fe1ce0b4e9
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -124,27 +108,6 @@ Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
-Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileobeta
-Version: 2.0.0b7
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>=1.9.3)
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_2.0.0b7_iphoneos-arm.deb
-Size: 3377548
-MD5sum: ef56f7856c22c0372a61b49aaf15b024
-SHA1: f74ce04d03100217cd568cbede4ca34835936254
-SHA256: 92564c51b1480ffe12d604138800f9696cb7b08b96601641986b19caec7723f5
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 12 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo (Beta Channel)
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: org.swift.libswift
