@@ -1,0 +1,8 @@
+Origin: Odyssey Repo
+Label: Odyssey Repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: odyssey-ios
+Description: CoolStar Additions for the Odyssey jailbreak
