@@ -60,7 +60,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"September 1, 2020",
+					"text":"November 20, 2020",
 					"title":"Updated"
 				},
 				{
@@ -74,6 +74,28 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta23",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 13.5.1+ on A12",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"3.0~beta22",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 13.5.1+ on Odysseyra1n",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"3.0~beta21",

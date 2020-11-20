@@ -1,16 +1,16 @@
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta22
+Version: 3.0~beta23
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta22_iphoneos-arm.deb
-Size: 806128
-MD5sum: 93e47f4c5158f706509e26d5379bc505
-SHA1: 204e0a4b31b3b085eca06082f3b8c6b6fb69bebe
-SHA256: 4c3dbef6606c888e368c7eadc7f8f382202fd14612a299b971c50fdaf2246d9b
+Filename: debs/com.anemonetheming.anemone3_3.0~beta23_iphoneos-arm.deb
+Size: 805920
+MD5sum: 66cfe39a998b3ddac1f05b8e5056fa9d
+SHA1: f006318920529625f0ca7776733480e89fe48793
+SHA256: 027ad68b804d6461be1fe2a39375fc725658729938a5e72d85d0a7877d12ecf8
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -19,17 +19,17 @@ Name: Anemone 3
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3.json
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta13
+Version: 3.0~beta14
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta13_iphoneos-arm.deb
-Size: 37096
-MD5sum: 9618053b9a8dc95176bf1efd35c8a814
-SHA1: 648d94e6219636f06fa4a1e4123e5bd2f5626a85
-SHA256: 4ce3f3ca7adeef713847d1ba6862d518fc34b66121a0e53600254637118576ad
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta14_iphoneos-arm.deb
+Size: 37064
+MD5sum: df19351f027b9b3cd4e768bbb8f7f043
+SHA1: 719a99d6a004e31201dba6694851382ae9c51a73
+SHA256: b4876b9b280ff37a594738877241729c73ec3417a68afc061de45837d2b3d04f
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
