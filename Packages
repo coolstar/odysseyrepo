@@ -55,18 +55,18 @@ Dev: rpetrich
 Name: RocketBootstrap
 
 Package: org.coolstar.libhooker
-Version: 1.3.0
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.3.0_iphoneos-arm.deb
-Size: 46920
-MD5sum: 8291f3681b3d421b2e4213b358dad6d1
-SHA1: 37309409527b83da376f150387f429372194ddcb
-SHA256: 7271441326789b7808af155564380b1a9d706c477f937212a48f799519e6c1d2
+Filename: debs/org.coolstar.libhooker_1.3.1_iphoneos-arm.deb
+Size: 47840
+MD5sum: 513d5088eba8a5a71271c72a7c239094
+SHA1: ed9d2bf83c249a3b0862a4a8435a30322268851a
+SHA256: 976489993565a1a089b7e5f3bbd9bb7ba74f2df4f6de594bda75f3d26fe516da
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
