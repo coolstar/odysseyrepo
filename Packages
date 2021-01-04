@@ -89,18 +89,18 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Safe Mode (libhooker)
 
 Package: org.coolstar.sileo
-Version: 2.0.0b7-1
+Version: 2.0.0b8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Installed-Size: 12728
+Installed-Size: 12756
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb
-Size: 3411310
-MD5sum: 569abb7fe4f1afc9f3014bede3c28a46
-SHA1: 482ad0a4c248e6803efa3945e4bb7d6506bdef36
-SHA256: eba26fc1a37ac5b81b2f78ca6c4cbf8b38f7388b85ec5c6faeb9f5ba378b10cc
+Filename: debs/org.coolstar.sileo_2.0.0b8_iphoneos-arm.deb
+Size: 3317984
+MD5sum: 1233ebaaa9be109bceb99b534fde6138
+SHA1: eb0cbe6a6551c90469f8ef4f830633396086dc26
+SHA256: 31a832d8a1dfbec9f5fe3ad27ed6f39633049402b4791c39b5f281180d504b62
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
