@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Odyssey</key>
+	<string>Odyssey Versions</string>
+	<key>bf99ac6412b576266aebb1b1896957cdc50ade6a</key>
+	<string>1.2.3b5</string>
+	<key>0f8720712707cf2df5496a3766dd20f5775374a1</key>
+	<string>1.2.3b4</string>
+	<key>bbfee50184855061a9cb20bbed26f596320ea8a6</key>
+	<string>1.2.3b3</string>
+	<key>9598c7df075550dd00975cac1760ddf72b94e4ea</key>
+	<string>1.2.3b1/b2</string>
+	<key>1afcc5419eb833425a25507a009f973418d8fbe5</key>
+	<string>1.2.x</string>
+	<key>d9ebee3f71b7e8b47a844d226827ac0a6814e344</key>
+	<string>1.1.2</string>
+	<key>3400f046a827e3e3cb8658d32cda3ad348f07155</key>
+	<string>1.1.1</string>
+	<key>51b0c2585f15a97c041f69fd5232a217989807ad</key>
+	<string>1.1.0</string>
+	<key>bde07a43b759f0adeb4feb64ca18cc7a96267ed5</key>
+	<string>1.0.x</string>
+</dict>
+</plist>
