@@ -55,22 +55,43 @@ Dev: rpetrich
 Name: RocketBootstrap
 
 Package: org.coolstar.libhooker
-Version: 1.3.2
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.3.2_iphoneos-arm.deb
-Size: 47856
-MD5sum: db33c2dfd0bb322b7e81b250f267780b
-SHA1: f960d4d64cab24a6879239e6bf4fd36f6e1d9fd5
-SHA256: 4885ffeffd74f0fb5cc807247c8d4b26ca7d6cb8af20eab9beffb3538462381e
+Filename: debs/org.coolstar.libhooker_1.4.0_iphoneos-arm.deb
+Size: 48760
+MD5sum: 57c26409fd5be192a4897e602208f633
+SHA1: 8be6760ab65e2a6470093784b9da2fd62cc5e437
+SHA256: 7ff16ffcdbf45ce2153b1c925f037b5be95d6f2915c1fb0fd97fbb6a125fbdbb
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
+Sileodepiction: https://repo.theodyssey.dev/depictions/libhooker.json
+
+Package: org.coolstar.libhooker-configurator
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Installed-Size: 1728
+Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 13.0)
+Filename: debs/org.coolstar.libhooker-configurator_1.0.0_iphoneos-arm.deb
+Size: 698356
+MD5sum: 79234c12363cf6d8ba1ce6af19f4862d
+SHA1: ef1d1a4d67a42a03b2d9236ae86352384f9a0ead
+SHA256: 9c09fbe2f0d4596831819161ac9b05ac6936287245d4e89cce702b3fd21c7822
+Section: Packaging
+Priority: required
+Description: Configuration Utility for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker Configurator
+Sileodepiction: https://repo.theodyssey.dev/depictions/libhooker-configurator.json
 
 Package: org.coolstar.safemode
 Version: 1.1.2-2
