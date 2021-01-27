@@ -24,7 +24,7 @@
 				},
 				{
 					"class":"DepictionMarkdownView",
-					"markdown":"#### Native and Modern\n\nAnemone 3.0 has been designed and built from the ground up to work properly with Electra, Sileo, Substitute, Tweak Injector and iOS 11. It builds upon native alternate icon API's built into iOS 11 and features a modern settings app that has been written in Swift with full support for modern iOS features! This allows core parts of most themes to work even in unjailbroken state.\n\nAnemone ships by default in \"minimal\" configuration to ensure speed and stability for users. Anemone 3.0 has been built with a modular design to ensure it can continue to be updated easily and seamlessly for future iOS versions.",
+					"markdown":"#### Native and Modern\n\nAnemone 3.0 has been designed and built from the ground up to work properly with Electra, Sileo, libhooker and iOS 11. It builds upon native alternate icon API's built into iOS 11 and features a modern settings app that has been written in Swift with full support for modern iOS features! This allows core parts of most themes to work even in unjailbroken state.\n\nAnemone ships by default in \"minimal\" configuration to ensure speed and stability for users. Anemone 3.0 has been built with a modular design to ensure it can continue to be updated easily and seamlessly for future iOS versions.",
 					"useSpacing":true
 				},
 				{
