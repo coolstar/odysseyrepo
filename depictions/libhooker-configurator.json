@@ -30,7 +30,7 @@
 				},
 				{
 				    "class":"DepictionMarkdownView",
-				    "markdown":"####Configure libhooker to your needs with this utility!\n\nlibhooker has been built from the ground up to work properly with 64-bit ARM devices\n\n####Features:\n\n1. Toggle libhooker on or off globally\n2. Toggle libhooker on or off in webpages\n3. Configure whether individual tweaks load globally or on a per-app / per-daemon level\n4. Initiate a respring or userspace reboot (userspace reboot requires Odyssey 1.2.3 beta or higher)\n5. Update Odyssey (requires Odyssey 1.2.3b5 or higher)",
+				    "markdown":"#### Configure libhooker to your needs with this utility!\n\nlibhooker has been built from the ground up to work properly with 64-bit ARM devices\n\n#### Features:\n\n1. Toggle libhooker on or off globally\n2. Toggle libhooker on or off in webpages\n3. Configure whether individual tweaks load globally or on a per-app / per-daemon level\n4. Initiate a respring or userspace reboot (userspace reboot requires Odyssey 1.2.3 beta or higher)\n5. Update Odyssey (requires Odyssey 1.2.3b5 or higher)",
 				    "useSpacing":true
 				},
 				{
