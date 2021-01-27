@@ -56,6 +56,17 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.0.2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix ldrestart / userspace reboot alert to be more accurate",
+					"useSpacing":true
+				},
 			    {
 					"class":"DepictionSubheaderView",
 					"title":"1.0.1",
