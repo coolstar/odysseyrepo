@@ -42,7 +42,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"January 26, 2021",
+					"text":"January 30, 2021",
 					"title":"Updated"
 				},
 				{
@@ -57,6 +57,18 @@
 			"tabname":"Changelog",
 			"views":[
 				{
+					"class":"DepictionSubheaderView",
+					"title":"1.1.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix crashes on iOS 13.3 and lower\n2. Add localization support\n3. Add Tweak Compatibility settings",
+					"useSpacing":true
+				},
+				{
+
 					"class":"DepictionSubheaderView",
 					"title":"1.0.2",
 					"useBoldText":true,
