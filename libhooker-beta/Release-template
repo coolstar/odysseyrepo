@@ -1,0 +1,8 @@
+Origin: LibHooker Beta Repo
+Label: LibHooker Beta Repo
+Suite: beta
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: libhooker-beta
+Description: LibHooker Beta for the Odyssey jailbreak
