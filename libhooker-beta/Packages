@@ -1,16 +1,16 @@
 Package: org.coolstar.libhooker
-Version: 1.4.9~beta1
+Version: 1.4.9~beta2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.4.9~beta1_iphoneos-arm.deb
-Size: 48808
-MD5sum: 93ce427293eb1edec540edfc8110d4a4
-SHA1: 27fee934f329b8360ac4262a6a48e6b509260cd9
-SHA256: 910e6a533dcbdca086a6dd565639b41a3a54e53349d4b11196abd1edf0d8fcf1
+Filename: debs/org.coolstar.libhooker_1.4.9~beta2_iphoneos-arm.deb
+Size: 48796
+MD5sum: fdd6edda21a324076567e23966a24c7e
+SHA1: 043bbaa136ab639e265e5078827964632d078773
+SHA256: 97d715970d4a5555724cd9163869117e0d958260cf7d6c18ec126bbc0a469d9a
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
