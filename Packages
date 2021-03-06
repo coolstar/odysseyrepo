@@ -1,16 +1,16 @@
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta23
+Version: 3.0~beta24
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta23_iphoneos-arm.deb
-Size: 805920
-MD5sum: 66cfe39a998b3ddac1f05b8e5056fa9d
-SHA1: f006318920529625f0ca7776733480e89fe48793
-SHA256: 027ad68b804d6461be1fe2a39375fc725658729938a5e72d85d0a7877d12ecf8
+Filename: debs/com.anemonetheming.anemone3_3.0~beta24_iphoneos-arm.deb
+Size: 806104
+MD5sum: 5a6ecb1246370c94092b276cb339d3d9
+SHA1: 353d12caa80b45c83520fcb0bd36929f8d7a9812
+SHA256: 84eeb6de088df255ced205abb5b0fa500bc81a5bd27ba3cb954e4f7256c2e7f7
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
