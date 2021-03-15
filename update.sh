@@ -4,5 +4,7 @@ cp Packages.tmp Packages
 bzip2 Packages
 cp Packages.tmp Packages
 xz Packages
+cp Packages.tmp Packages
+zstd Packages
 mv Packages.tmp Packages
 php updaterelease.php
