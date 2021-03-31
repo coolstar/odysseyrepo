@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Taurine</key>
+	<string>Taurine Versions</string>
+	<key>5ef35f2563e53ed95c9ddd57f693c07624d43d02</key>
+	<string>beta 3</string>
 	<key>Odyssey</key>
 	<string>Odyssey Versions</string>
 	<key>d18ef97a63e4b19239deeb1a557cdadd559a9bff</key>

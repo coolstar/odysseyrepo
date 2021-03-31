@@ -42,7 +42,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"January 30, 2021",
+					"text":"March 30, 2021",
 					"title":"Updated"
 				},
 				{
@@ -56,6 +56,17 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.1.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 14",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.1.0",
