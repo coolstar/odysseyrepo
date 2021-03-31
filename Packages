@@ -75,16 +75,16 @@ Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/libhooker.json
 
 Package: org.coolstar.libhooker-configurator
-Version: 1.1.1
+Version: 1.1.1-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Installed-Size: 2028
 Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 13.0)
-Filename: debs/org.coolstar.libhooker-configurator_1.1.1_iphoneos-arm.deb
-Size: 797598
-MD5sum: 780dfb332ffa54130ac8179fa69326b0
-SHA1: c9da92c0e808a093453e740a5655219b45aacb0d
-SHA256: b8b48afae7e44e4080c7503cbe5432ba1a7691c9dd0248a9cc75a3ad90b14503
+Filename: debs/org.coolstar.libhooker-configurator_1.1.1-1_iphoneos-arm.deb
+Size: 836414
+MD5sum: 23f477e2f362d307f63fa3eb77904851
+SHA1: f2f72727c1b047da5a1ad9872af9d777da33fcc6
+SHA256: 7ceb71fe84a3edfe20ec8b12de44dd662694b9a041cd84e6f57e9e57ae8cc350
 Section: Packaging
 Priority: required
 Description: Configuration Utility for libhooker
