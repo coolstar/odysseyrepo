@@ -6,8 +6,8 @@ Architectures: iphoneos-arm
 Components: main
 Codename: odyssey-ios
 Description: CoolStar Additions for the Odyssey jailbreak
-Date: Thu, 1 Apr 2021 20:56:36 +0000
+Date: Thu, 1 Apr 2021 21:37:09 +0000
 SHA256:
- ece55aaa94b585179f5a676cd71dcb9babfbe7747ef3a23831576bc312df5231 8816 Packages
- 8c59be11933993c1ed50fe491750c75b343a27957da006cceef6d98735e7f81e 2967 Packages.bz2
- 2dcf51846f3e94be8f174bfea944241186618f6ce12b0a27bc28dfdc310f5767 2812 Packages.xz
+ 5978799bd42227e75eb121edf491b4f5d137d6a5bde82a25b3abaa3eb6098e08 8816 Packages
+ 10edec445444ebc3e234c5f8c4aa0d2ca4222ede2c4e1f9c23bffeb15dc890c0 2964 Packages.bz2
+ 79b33d536766dbd3b8ba0a3cc95e12b370e1fd9a897a2580593487e2e2ef7237 2812 Packages.xz
