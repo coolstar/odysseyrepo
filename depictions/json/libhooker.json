@@ -1,0 +1,131 @@
+{
+	"class":"DepictionTabView",
+	"minVersion":"0.3",
+	"headerImage":"https://repo.theodyssey.dev/depictions/assets/org.coolstar.libhooker-banner.jpg",
+	"tintColor":"#7d55ec",
+	"tabs":[
+		{
+			"class":"DepictionStackView",
+			"tabname":"Details",
+			"views":[
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"A revolutionary injection library for arm64 devices!",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSeparatorView"
+				},
+				{
+					"class":"DepictionHeaderView",
+					"title":"Information"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"April 1, 2021",
+					"title":"Updated"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"Free Package",
+					"title":"License"
+				}
+			]
+		},
+		{
+			"class":"DepictionStackView",
+			"tabname":"Changelog",
+			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.5.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Improved support for iOS 14\n2. Add support for iOS 14.3+ on arm64e\n3. More optimizations for tweaks that use the libhooker C functions to reduce memory usage\n4. Add LHPatchMemory API for developers\n5. Improves speed of LHFindSymbols\n6. Begins adding support for dyld3 on iOS 13+",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.4.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for libhooker Configurator",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.3.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Optimize Objective-C hooks so less memory is used (benefits all tweaks)\n2. Optimize C hooks for tweaks that use libhooker API directly so that less memory is used (e.g. Anemone 3)\n3. Fix hooks failing in some cases on iPhone 5S & 6 with iOS 12",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.2.5",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Split Safe Mode app into a separate package",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.2.3",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix Battery Info in settings on iOS 13\n2. Add support for running Cycript on arm64e (A12/A13) devices",
+					"useSpacing":true
+				},
+				{
+
+					"class":"DepictionSubheaderView",
+					"title":"1.2.1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add libsyringe to support injection into arbitrary processes\n2. Add support for running cycript",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix issue with some UIKit tweaks not loading into SpringBoard",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"Initial Release for IOS!",
+					"useSpacing":true
+				}
+			]
+		}
+	]
+}

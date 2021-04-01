@@ -55,24 +55,24 @@ Dev: rpetrich
 Name: RocketBootstrap
 
 Package: org.coolstar.libhooker
-Version: 1.4.0
+Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.4.0_iphoneos-arm.deb
-Size: 48760
-MD5sum: 57c26409fd5be192a4897e602208f633
-SHA1: 8be6760ab65e2a6470093784b9da2fd62cc5e437
-SHA256: 7ff16ffcdbf45ce2153b1c925f037b5be95d6f2915c1fb0fd97fbb6a125fbdbb
+Filename: debs/org.coolstar.libhooker_1.5.0_iphoneos-arm.deb
+Size: 48960
+MD5sum: b7ab11f74c1bbc5c8025a3f9dbe638be
+SHA1: d6bf3768011bb5e67913f8eaa6e00663ad7a0fb2
+SHA256: ade151438dcee7e2400b3854632b976536eea28c48253f2f496ebd4c2731e25e
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
-Sileodepiction: https://repo.theodyssey.dev/depictions/libhooker.json
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
 Package: org.coolstar.libhooker-configurator
 Version: 1.1.1-1
