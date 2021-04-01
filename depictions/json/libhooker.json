@@ -38,6 +38,17 @@
 			"views":[
 				{
 					"class":"DepictionSubheaderView",
+					"title":"1.5.1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix regression in 1.5.0 where filtering injection in configurator may not work correctly",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
 					"title":"1.5.0",
 					"useBoldText":true,
 					"useBottomMargin":false
