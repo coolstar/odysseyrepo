@@ -101,15 +101,16 @@ Depends: firmware (>= 14.0)
 Replaces: libkernrw
 Provides: libkernrw (=0.9b1)
 Filename: debs/org.coolstar.libkernrw_1.0_iphoneos-arm.deb
-Size: 4280
-MD5sum: 3fbe237f775f741326ac34103a124295
-SHA1: d9d813ca53febee29aea62f44035102f43a5e547
-SHA256: 3b4c06db1ca76bbf5c7e32ff0afc30c2068ce65c51370e4c39db318d8b2e61b6
+Size: 4324
+MD5sum: 030164f694e086c6af4815e4bc5e890c
+SHA1: 3be8e0fd68d7f7179abb0cdd8a014e88a8d70ee3
+SHA256: 13018d06b6fe0abeb1c4d9a3490c276df7cc4271f49e6801eec55b254030d4ec
 Section: Development
 Priority: optional
 Description: Kernel r/w API for iOS 14.0+
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: libKernRW
+Sileodepiction: https://repo.theodyssey.dev/depictions/libkernrw.json
 
 Package: org.coolstar.safemode
 Version: 1.1.2-2
