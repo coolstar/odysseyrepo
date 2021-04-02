@@ -94,17 +94,17 @@ Name: libhooker Configurator
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
 
 Package: org.coolstar.libkernrw
-Version: 0.9b1
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 14.0)
 Replaces: libkernrw
 Provides: libkernrw (=0.9b1)
-Filename: debs/org.coolstar.libkernrw_0.9b1_iphoneos-arm.deb
-Size: 4136
-MD5sum: fd245761e8ead24e6e99271e21f98286
-SHA1: c36424375f633226302faaeabeaf70c9bff06159
-SHA256: ccc734b7545cf807a3a1be7140430de2b3760265feaed922e1f58944f50e59b0
+Filename: debs/org.coolstar.libkernrw_1.0_iphoneos-arm.deb
+Size: 4280
+MD5sum: 3fbe237f775f741326ac34103a124295
+SHA1: d9d813ca53febee29aea62f44035102f43a5e547
+SHA256: 3b4c06db1ca76bbf5c7e32ff0afc30c2068ce65c51370e4c39db318d8b2e61b6
 Section: Development
 Priority: optional
 Description: Kernel r/w API for iOS 14.0+
