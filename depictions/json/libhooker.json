@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"April 1, 2021",
+					"text":"April 3, 2021",
 					"title":"Updated"
 				},
 				{
@@ -36,6 +36,17 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+                                        "class":"DepictionSubheaderView",
+                                        "title":"1.5.4",
+                                        "useBoldText":true,
+                                        "useBottomMargin":false
+                                },
+                                {
+                                        "class":"DepictionMarkdownView",
+                                        "markdown":"1. Fix sandbox issues with WebContent on iOS 14.x+ [Pair with Taurine 1.0.1 or higher]",
+                                        "useSpacing":true
+                                },
 				{
                                         "class":"DepictionSubheaderView",
                                         "title":"1.5.2",
