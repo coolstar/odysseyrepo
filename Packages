@@ -186,15 +186,15 @@ Name: libswift (stable)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
 
 Package: preferenceloader
-Version: 3.0.2
+Version: 3.0.3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/preferenceloader_3.0.2_iphoneos-arm.deb
-Size: 16744
-MD5sum: 2ce56dc9298e30faac2ee9e832a33e41
-SHA1: ba96fbd660f9f0981ddff644bffa3a63638dae1b
-SHA256: cf088765311c630c847c15b2a88b3863d34c7069a7d96c483138aa16b45c6b54
+Filename: debs/preferenceloader_3.0.3_iphoneos-arm.deb
+Size: 16352
+MD5sum: 1800137953e1523798f8fe4ce5fa2c5a
+SHA1: 53ad8ffcb2769c43814cb699f40f0d0ee0b8e39c
+SHA256: 5c592ff319fad961cd87f7ddd309409f2a004de129c4dc8500c64391dd48a00f
 Section: System
 Description: load preferences in style
 Tag: role::hacker, purpose::library
