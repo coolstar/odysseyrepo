@@ -37,6 +37,17 @@
 			"tabname":"Changelog",
 			"views":[
 				{
+                                        "class":"DepictionSubheaderView",
+                                        "title":"1.5.2",
+                                        "useBoldText":true,
+                                        "useBottomMargin":false
+                                },
+                                {
+                                        "class":"DepictionMarkdownView",
+                                        "markdown":"1. Detect and fix broken symlinks automatically",
+                                        "useSpacing":true
+                                },
+				{
 					"class":"DepictionSubheaderView",
 					"title":"1.5.1",
 					"useBoldText":true,
