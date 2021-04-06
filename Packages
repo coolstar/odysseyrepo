@@ -128,45 +128,6 @@ Description: Safe Mode app for libhooker
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Safe Mode (libhooker)
 
-Package: org.coolstar.sileo
-Version: 2.0.3
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Installed-Size: 12756
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_2.0.3_iphoneos-arm.deb
-Size: 3319550
-MD5sum: 7225c655191baea53f37fe1be5e7bf22
-SHA1: a2b4f86890914899247e70d5c682571ccdbcd239
-SHA256: d0989dbad2b0eb588b586094462813a1d80612c6418ab325f916b784b3aa6319
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo
-Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileobeta
-Version: 2.1+20210403.1617481671.9ed4bcb
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0)
-Filename: debs/org.coolstar.sileobeta_2.1+20210403.1617481671.9ed4bcb_iphoneos-arm.deb
-Size: 2620304
-MD5sum: d1d29eca273752a422a1f05030a243ef
-SHA1: 5d33e7e399e59da6df3649e3bb20bdd8c719b543
-SHA256: e63a637b463b8a66b033ea9107256794f3ee40adf1cee0e1e8f0bb677e48a318
-Section: Packaging
-Description: A modern APT package manager frontend
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo (Beta Channel)
-Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
 Package: org.swift.libswift
 Version: 5.0-electra2
 Architecture: iphoneos-arm
