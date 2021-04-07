@@ -55,18 +55,18 @@ Dev: rpetrich
 Name: RocketBootstrap
 
 Package: org.coolstar.libhooker
-Version: 1.5.4
+Version: 1.5.5
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.5.4_iphoneos-arm.deb
-Size: 48972
-MD5sum: 3ee25ae346a3e0826ced2d7b1cbede8f
-SHA1: f75c688be2e9d5b4136d658d2b615c90f31f64c7
-SHA256: 831adc205ce04200d7f1cee627d7b069a4d0fae6780fd6bdcf6959bba8e95ce6
+Filename: debs/org.coolstar.libhooker_1.5.5_iphoneos-arm.deb
+Size: 50548
+MD5sum: b5bc1fd51b7bd217146f8ec8ced8b0f2
+SHA1: e093d958814ebe2520b1bc53038cbcf032c5dafe
+SHA256: d462bd3437af6ec55971693c29ac945d7aca7bc80837462ef5569c5fdcdce6d6
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
@@ -111,6 +111,23 @@ Description: Kernel r/w API for iOS 14.0+
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: libKernRW
 Sileodepiction: https://repo.theodyssey.dev/depictions/libkernrw.json
+
+Package: org.coolstar.maXscale
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 12.0), cy+cpu.arm64, org.coolstar.libhooker (>= 1.5.5)
+Filename: debs/org.coolstar.maXscale_1.0_iphoneos-arm.deb
+Size: 4904
+MD5sum: 5d0896e1eba6ef99f88c90bb55430905
+SHA1: 3d7b07a8c64748d598cb119e25e346efca5989c3
+SHA256: b51120ef536c0a15e016173db36b8cd047bded979276bf0767c2885d70b1b1b5
+Section: System
+Description: iPhone XS Max display resolution for iPhone X / Xs
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/maXscale.png
+Name: maXscale
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/maXscale.json
 
 Package: org.coolstar.safemode
 Version: 1.1.4

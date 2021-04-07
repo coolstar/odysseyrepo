@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"April 3, 2021",
+					"text":"April 7, 2021",
 					"title":"Updated"
 				},
 				{
@@ -37,27 +37,38 @@
 			"tabname":"Changelog",
 			"views":[
 				{
-                                        "class":"DepictionSubheaderView",
-                                        "title":"1.5.4",
-                                        "useBoldText":true,
-                                        "useBottomMargin":false
-                                },
-                                {
-                                        "class":"DepictionMarkdownView",
-                                        "markdown":"1. Fix sandbox issues with WebContent on iOS 14.x+ [Pair with Taurine 1.0.1 or higher]",
-                                        "useSpacing":true
-                                },
+					"class":"DepictionSubheaderView",
+					"title":"1.5.5",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
 				{
-                                        "class":"DepictionSubheaderView",
-                                        "title":"1.5.2",
-                                        "useBoldText":true,
-                                        "useBottomMargin":false
-                                },
-                                {
-                                        "class":"DepictionMarkdownView",
-                                        "markdown":"1. Detect and fix broken symlinks automatically",
-                                        "useSpacing":true
-                                },
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Performance and Battery life improvements (iOS 14 users pair with Taurine 1.0.2 +)\n2. Add some secret goodies (e.g. maXscale support)\n3. Add support for hooking some shorter functions\n4. Fix some edge cases with hooking certain functions",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.5.4",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix sandbox issues with WebContent on iOS 14.x+ [Pair with Taurine 1.0.1 or higher]",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.5.2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Detect and fix broken symlinks automatically",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.5.1",
