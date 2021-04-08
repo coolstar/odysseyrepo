@@ -37,6 +37,27 @@ Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
 Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
 
+Package: com.muirey03.libmryipc
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: debs/com.muirey03.libmryipc_2.0-1_iphoneos-arm.deb
+Size: 27380
+MD5sum: 21ae0636da5862151792a2c517679425
+SHA1: 4a78ee1d545919ac2a5c9ff37e26b410344e20e7
+SHA256: 1d82da2ab5be4a6b64546beea9a1dbdb199e645ceadf619b847fffea7d9a48bd
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer, purpose::library, cydia::obsolete, compatible::ios13
+Author: Muirey03 <tommy.muir@btinternet.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Dev: muirey03
+Name: libMRYIPC
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.1.0~libhooker2
 Architecture: iphoneos-arm
