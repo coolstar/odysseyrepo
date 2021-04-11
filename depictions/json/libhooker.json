@@ -37,6 +37,17 @@
 			"tabname":"Changelog",
 			"views":[
 				{
+                                        "class":"DepictionSubheaderView",
+                                        "title":"1.6.0",
+                                        "useBoldText":true,
+                                        "useBottomMargin":false
+                                },
+                                {
+                                        "class":"DepictionMarkdownView",
+                                        "markdown":"1. Fix Caller ID / Call blocking apps not working\n2. Add libsyringe support for arm64e iOS 14 (arm64e injection only supported for system apps, though app store apps are arm64 right now)",
+                                        "useSpacing":true
+                                },
+				{
 					"class":"DepictionSubheaderView",
 					"title":"1.5.5",
 					"useBoldText":true,
