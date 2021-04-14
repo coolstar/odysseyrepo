@@ -55,15 +55,15 @@ Dev: rpetrich
 Name: RocketBootstrap
 
 Package: org.coolstar.jbupdater
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 13.0)
-Filename: debs/org.coolstar.jbupdater_1.0_iphoneos-arm.deb
-Size: 21912
-MD5sum: 6ef59a343880a5d342336129769415ab
-SHA1: 5b484f05239082fb2a77560ab2503c8beefa5412
-SHA256: 00f867cb33310c956bf7fe3f683f04204df4d6c711522c0986b7eaa9bcca63a5
+Filename: debs/org.coolstar.jbupdater_1.0.1_iphoneos-arm.deb
+Size: 22524
+MD5sum: 96b2364281e9dfd21c6f8798aaa63d17
+SHA1: a9c26c3d15a2f0390f9ca1bfd9ea7ce80fcefed2
+SHA256: 6c7d5ba903ec247d7e41dc18b259820deeaada726a6994d1fb4fca817672d5f5
 Section: System
 Priority: optional
 Description: Update Odyssey / Taurine without rebooting and rejailbreaking
