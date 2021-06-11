@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"April 7, 2021",
+					"text":"June 11, 2021",
 					"title":"Updated"
 				},
 				{
@@ -37,16 +37,38 @@
 			"tabname":"Changelog",
 			"views":[
 				{
-                                        "class":"DepictionSubheaderView",
-                                        "title":"1.6.0",
-                                        "useBoldText":true,
-                                        "useBottomMargin":false
-                                },
-                                {
-                                        "class":"DepictionMarkdownView",
-                                        "markdown":"1. Fix Caller ID / Call blocking apps not working\n2. Add libsyringe support for arm64e iOS 14 (arm64e injection only supported for system apps, though app store apps are arm64 right now)",
-                                        "useSpacing":true
-                                },
+					"class":"DepictionSubheaderView",
+					"title":"1.6.2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix issues with TrustedHelperd/proximitycontrold using a ton of CPU resources\n2. No longer rely on bash for scripts\n3. Install scripts are now quieter",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.6.1",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"This version number has been skipped as it was used for various placebo testing",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.6.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix Caller ID / Call blocking apps not working\n2. Add libsyringe support for arm64e iOS 14 (arm64e injection only supported for system apps, though app store apps are arm64 right now)",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.5.5",
