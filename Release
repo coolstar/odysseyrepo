@@ -6,9 +6,24 @@ Architectures: iphoneos-arm
 Components: main
 Codename: odyssey-ios
 Description: CoolStar Additions for the Odyssey jailbreak
-Date: Fri, 11 Jun 2021 19:50:33 +0000
+Date: Tue, 20 Jul 2021 15:16:42 +0000
+MD5Sum:
+ cec811a6c723b16afe1cfef6cf630321         7854 Packages
+ 3110406a6cd63c421e852aef59f343ae         2617 Packages.bz2
+ 46b41eac9f503397c20646be9179d567         2468 Packages.xz
+ f62dc2b35f90a96357fcdeadc6cb9524         2523 Packages.zst
+SHA1:
+ 991698ea952c9f7b23529aaa95eb5a6f46c4ff4e         7854 Packages
+ 338564eb09e664ab391c17efc90a01afcf147bfc         2617 Packages.bz2
+ 4f66300df980045dd76402439e5a8bbf8900f22b         2468 Packages.xz
+ 27c57ba5e1981bb0baf31bdbbe982c6fe92ea51f         2523 Packages.zst
 SHA256:
- 05a6bfb01c40a7ae7d297c3fa5c4ca845eacdee10322308a454c8eb1f0613521 7854 Packages
- 9d9ff6379a237228c7327b36bbd46c4e5f56892cf78640875efb9031f1ad7b1f 2617 Packages.bz2
- ec4b657335014104ad783001f0ef35af70746eff8f6f299508fdda411db7a7e1 2468 Packages.xz
- e270bc1c419e1e2be68327969fddd0862a93448aa24c088ef07cc8a512099192 2523 Packages.zst
+ 05a6bfb01c40a7ae7d297c3fa5c4ca845eacdee10322308a454c8eb1f0613521         7854 Packages
+ 9d9ff6379a237228c7327b36bbd46c4e5f56892cf78640875efb9031f1ad7b1f         2617 Packages.bz2
+ ec4b657335014104ad783001f0ef35af70746eff8f6f299508fdda411db7a7e1         2468 Packages.xz
+ e270bc1c419e1e2be68327969fddd0862a93448aa24c088ef07cc8a512099192         2523 Packages.zst
+SHA512:
+ 10b02346ef41789b638b211ecdea3079a84880b6d7be3922fa24caae5d56d1b3cd728e78054d6abe9abcc987a5311a5cd06f1ef958edd0eae999e413ecf0aac5         7854 Packages
+ 83ea398a8ace54c6ce2e4018ab2c0d08624b09ba49ee1dce9b0f8ee45992f784a16ecc12f5d697468211c26acf369f905c2b8f382decae7e79bd0c680ee1f2de         2617 Packages.bz2
+ 08b773be4f62e27843eabc815920d39e2c4ac9e91a27c603b3cff290a43c6fb2c5daff18ae3c866661d47110349b78512fbac84e49a7c4c2da380df7683eb0f3         2468 Packages.xz
+ b0df55d607b856ccc7ff8da4bdbaa683642b5fc0303a5949c4865a6f1e0ec970558f443a61458217e4a4d3600b5a2312b5757b48b31e0ea97967fab43ddae271         2523 Packages.zst
