@@ -72,18 +72,18 @@ Name: Jailbreak Updater
 Sileodepiction: https://repo.theodyssey.dev/depictions/jbupdater.json
 
 Package: org.coolstar.libhooker
-Version: 1.6.2
+Version: 1.6.3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.6.2_iphoneos-arm.deb
-Size: 53888
-MD5sum: 75f05204ff425aac158fc3ef774c6997
-SHA1: 7849eaf0e491e824edd66839f0cad465fe9e982c
-SHA256: 783d72390f4f07c2851277244ed3cf56d78bddc0b5c0368b6cf57d5aa4eaa342
+Filename: debs/org.coolstar.libhooker_1.6.3_iphoneos-arm.deb
+Size: 54076
+MD5sum: 53aa7a2714d63475be1cf164c5e858e1
+SHA1: cc190c2df8789443a38587ebf527b4d5be97e38d
+SHA256: c024372de9c384f07f93fc163155fbb009dd67513cfaa49d1583db8d3ecabec9
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>

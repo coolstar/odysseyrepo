@@ -38,6 +38,17 @@
 			"views":[
 				{
 					"class":"DepictionSubheaderView",
+					"title":"1.6.3",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add userspace reboot support for odysseyra1n",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
 					"title":"1.6.2",
 					"useBoldText":true,
 					"useBottomMargin":false
