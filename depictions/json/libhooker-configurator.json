@@ -42,7 +42,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"March 30, 2021",
+					"text":"August 29, 2021",
 					"title":"Updated"
 				},
 				{
@@ -56,6 +56,17 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.2.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add support for iOS 12\n2. Use UIKit\n3. Fix typo with userspace reboot title\n4. Fix popover on iPad\n5. Improve support for iOS 13.0 - 13.3",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.1.0",
