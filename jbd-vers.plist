@@ -4,6 +4,8 @@
 <dict>
 	<key>Taurine</key>
 	<string>Taurine Versions</string>
+	<key>46e2a3d3a6dcb1c5bd8625860228ffd5d6b377df</key>
+	<string>1.1.2</string>
 	<key>892031f86faaa3e5d58b13ba94f59ede61dda852</key>
 	<string>1.1.1</string>
 	<key>63d9c68a707892d4ab07e7c1de7afc167568aa3f</key>
@@ -56,6 +58,8 @@
 	<string>beta 3</string>
 	<key>Odyssey</key>
 	<string>Odyssey Versions</string>
+	<key>99bc1a55ed5520d41370fbeb5728962fd912f682</key>
+	<string>1.4.2</string>
 	<key>ecbea3a1cd9b6d2f92374b7c7b57fd901fc28fd9</key>
 	<string>1.4.1</string>
 	<key>5022cb3ee5890b0334243c35172a5d8286f33756</key>
