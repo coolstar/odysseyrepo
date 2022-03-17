@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"June 11, 2021",
+					"text":"March 17, 2022",
 					"title":"Updated"
 				},
 				{
@@ -36,6 +36,17 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+					"class":"DepictionSubheaderView",
+					"title":"1.6.9",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add Initial Support for iOS 15\n2. Add support for tweaks to hook libhooker itself\n3. Add support for hooking more system methods",
+					"useSpacing":true
+				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.6.3",
