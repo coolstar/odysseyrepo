@@ -42,7 +42,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"August 29, 2021",
+					"text":"March 17, 2022",
 					"title":"Updated"
 				},
 				{
@@ -58,6 +58,17 @@
 			"views":[
 				{
 					"class":"DepictionSubheaderView",
+					"title":"1.3.0",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Add search bar to lists of Applications / Daemons (Thanks Amy)\n2. Fix typos\n3. Turkish and Vietnamese Translations",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSubheaderView",
 					"title":"1.2.0",
 					"useBoldText":true,
 					"useBottomMargin":false
@@ -69,7 +80,7 @@
 				},
 				{
 					"class":"DepictionSubheaderView",
-					"title":"1.1.0",
+					"title":"1.1.1",
 					"useBoldText":true,
 					"useBottomMargin":false
 				},
