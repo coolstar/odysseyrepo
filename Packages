@@ -1,0 +1,194 @@
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta24
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: debs/com.anemonetheming.anemone3_3.0~beta24_iphoneos-arm.deb
+Size: 806104
+MD5sum: 5a6ecb1246370c94092b276cb339d3d9
+SHA1: 353d12caa80b45c83520fcb0bd36929f8d7a9812
+SHA256: 84eeb6de088df255ced205abb5b0fa500bc81a5bd27ba3cb954e4f7256c2e7f7
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
+Name: Anemone 3
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3.json
+
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta14
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta14_iphoneos-arm.deb
+Size: 37064
+MD5sum: df19351f027b9b3cd4e768bbb8f7f043
+SHA1: 719a99d6a004e31201dba6694851382ae9c51a73
+SHA256: b4876b9b280ff37a594738877241729c73ec3417a68afc061de45837d2b3d04f
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
+
+Package: org.coolstar.jbupdater
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 13.0), firmware (<< 15.0)
+Filename: debs/org.coolstar.jbupdater_1.0.2_iphoneos-arm.deb
+Size: 25108
+MD5sum: 3bcc0d1831034a520afac65659e1572d
+SHA1: 93db85789181c030531675b79f53b97c248d78db
+SHA256: bdf9b671a3e6725a84fab44d32db4bda3b52b2ebd150e43950fbd9147b0c946b
+Section: System
+Priority: optional
+Description: Update Odyssey / Taurine without rebooting and rejailbreaking
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Jailbreak Updater
+Sileodepiction: https://repo.theodyssey.dev/depictions/jbupdater.json
+
+Package: org.coolstar.libhooker
+Version: 1.6.9
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/org.coolstar.libhooker_1.6.9_iphoneos-arm.deb
+Size: 56032
+MD5sum: baf916c12b2cff38525884bf93aac39a
+SHA1: f301e048bef8a0c32ca15da85c556571eefca27d
+SHA256: 478cea9a549bc382efd5f3a050b5b8ceebdf0225b8191ad01322b0f9b49ec3a3
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker-configurator
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
+Filename: debs/org.coolstar.libhooker-configurator_1.3_iphoneos-arm.deb
+Size: 268708
+MD5sum: b4379721e1c144af4882cd679625cb11
+SHA1: feee271c46217dca779a4ae1f81c71cbca5cc292
+SHA256: 0861ac9bf94954c73affa4ef5d0cccb9084d0431c64f6434c83e12bab8bf249d
+Section: Packaging
+Priority: required
+Description: Configuration Utility for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker-configurator
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
+
+Package: org.coolstar.maXscale
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 12.0), cy+cpu.arm64, org.coolstar.libhooker (>= 1.5.5)
+Filename: debs/org.coolstar.maXscale_1.0_iphoneos-arm.deb
+Size: 4904
+MD5sum: 5d0896e1eba6ef99f88c90bb55430905
+SHA1: 3d7b07a8c64748d598cb119e25e346efca5989c3
+SHA256: b51120ef536c0a15e016173db36b8cd047bded979276bf0767c2885d70b1b1b5
+Section: System
+Description: iPhone XS Max display resolution for iPhone X / Xs
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/maXscale.png
+Name: maXscale
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/maXscale.json
+
+Package: org.coolstar.safemode
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: debs/org.coolstar.safemode_1.1.4_iphoneos-arm.deb
+Size: 558304
+MD5sum: 43526b865445d84251d78f99a6325ab5
+SHA1: fd03023d7559d36435f4d64bad92504cc9d46297
+SHA256: 44368da007c8b46bd7d69c48f0724b36d423758e807215e67f12f85a8ea4966e
+Section: System
+Description: Safe Mode app for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Safe Mode (libhooker)
+
+Package: org.swift.libswift
+Version: 5.0-electra2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0)
+Filename: debs/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Size: 23330860
+MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
+SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
+SHA256: 07adbccbde8682adb44e8dcf0bdd6bef5c909d879ca654e6533f8a52f1884ced
+Section: Development
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Dev: kabiroberai
+Name: libswift (stable)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+
+Package: preferenceloader
+Version: 3.0.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_3.0.3_iphoneos-arm.deb
+Size: 16352
+MD5sum: 1800137953e1523798f8fe4ce5fa2c5a
+SHA1: 53ad8ffcb2769c43814cb699f40f0d0ee0b8e39c
+SHA256: 5c592ff319fad961cd87f7ddd309409f2a004de129c4dc8500c64391dd48a00f
+Section: System
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Dev: dustinhowett
+Name: PreferenceLoader
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
+
+Package: taurine-permanent
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Odyssey Team
+Filename: debs/taurine-permanent_1.1.4_iphoneos-arm.deb
+Size: 30847612
+MD5sum: c725bcc9814d3ac606c6ef13686d762c
+SHA1: 0d52261bf81bb198fdade05702eed68557ceef2d
+SHA256: 06d466fa41f8a8446270a8fa1efe4db79e3a242ec20b9b7c8f0b103c976654ae
+Section: Applications
+Priority: standard
+Homepage: https://taurine.app/
+Description: (Relatively) permanent install of Taurine.
+
