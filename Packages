@@ -91,6 +91,26 @@ Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
+Package: org.coolstar.libhooker
+Version: 1.6.9-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/org.coolstar.libhooker_1.6.9-1_iphoneos-arm.deb
+Size: 56056
+MD5sum: 341d28e6ab1b3e5a2b3d0a819580e302
+SHA1: 63692d0e4e7335d7154050765d1d4ccdcf9051f3
+SHA256: ca21825106b2c323bd63a13b2c2bedddb598fc7c853adfa4ca3df6b6d16526e3
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
 Package: org.coolstar.libhooker-configurator
 Version: 1.3
 Architecture: iphoneos-arm
