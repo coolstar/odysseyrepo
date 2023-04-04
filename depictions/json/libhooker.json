@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"December 7, 2022",
+					"text":"March 17, 2022",
 					"title":"Updated"
 				},
 				{
@@ -36,17 +36,6 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
-				{
-					"class":"DepictionSubheaderView",
-					"title":"1.6.9-1",
-					"useBoldText":true,
-					"useBottomMargin":false
-				},
-				{
-					"class":"DepictionMarkdownView",
-					"markdown":"1. Add support for iOS 15 on checkm8 devices (no support for rootless with this deb)",
-					"useSpacing":true
-				},
 				{
 					"class":"DepictionSubheaderView",
 					"title":"1.6.9",
