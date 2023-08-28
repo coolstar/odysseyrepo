@@ -1,0 +1,109 @@
+{
+	"class":"DepictionTabView",
+	"minVersion":"0.3",
+	"headerImage":"https://repo.theodyssey.dev/depictions/assets/org.coolstar.taurine-banner.jpg",
+	"tintColor":"#5f42d5",
+	"tabs":[
+		{
+			"class":"DepictionStackView",
+			"tabname":"Details",
+			"views":[
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"A (relatively) permanent install of the Taurine jailbreak for iOS 14.0 - 14.8.1",
+					"useSpacing":true
+				},
+				{
+					"class":"DepictionSeparatorView"
+				},
+				{
+					"class":"DepictionHeaderView",
+					"title":"Information"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"March 17, 2022",
+					"title":"Updated"
+				},
+				{
+					"class":"DepictionTableTextView",
+					"text":"Free Package",
+					"title":"License"
+				},
+				{
+					"class": "DepictionLayerView",
+					"views": [
+						{
+							"class": "DepictionImageView",
+							"URL": "https://repo.theodyssey.dev/depictions/assets/org.coolstar.taurine-banner.png",
+							"width": 1500,
+							"height": 500,
+							"cornerRadius": 0,
+							"alignment": 1
+						},
+						{
+							"class": "DepictionImageView",
+							"URL": "https://repo.theodyssey.dev/depictions/assets/org.coolstar.taurine-iphones.png",
+							"width": 455,
+							"height": 929,
+							"cornerRadius": 0,
+							"alignment": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"class":"DepictionStackView",
+			"tabname":"Changelog",
+			"views":[
+				{
+
+					"class":"DepictionSubheaderView",
+					"title":"1.1.7",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Adds support for kfd exploit\n2. Adds support for iOS 14.4 - 14.8.1\n3. Backports remaining changes from Taurine15",
+					"useSpacing":true
+				},
+				{
+
+					"class":"DepictionSubheaderView",
+					"title":"1.1.6",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Backports DER entitlement fixes from Taurine15\n2. Backports codesignature fixes from Taurine15\n3. Backports various other fixes from Taurine15",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.1.5",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fixed arm64e for 14.2 and 14.3",
+					"useSpacing":true
+				},
+			    {
+					"class":"DepictionSubheaderView",
+					"title":"1.1.4",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Adds support for taurine-permanent, to be able to access Taurine even while unjailbroken without needing to sign the application.\n2. Backports Swift patchfinder from <currently unnamed iOS 15 jailbreak>.\n3. Backports IMG4 parser from <currently unnamed iOS 15 jailbreak> (removes img4tool and fixes Windows Defender false positive).\n4. Adds support for iOS 15 DER entitlements to jailbreakd.\n5. Adds support for iOS 15.1 Hash Agility to jailbreakd.",
+					"useSpacing":true
+				}
+			]
+		}
+	]
+}
