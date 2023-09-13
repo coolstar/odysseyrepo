@@ -134,12 +134,12 @@ Version: 1.6.8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: org.coolstar.libhooker (>= 1.6.9-1)
-Depends: firmware (>= 11.0), firmware (<< 14.0), cy+cpu.arm64, org.coolstar.safemode
+Depends: firmware (>= 14.0), cy+cpu.arm64, org.coolstar.safemode
 Filename: debs/org.coolstar.libhooker-newabi_1.6.8_iphoneos-arm.deb
-Size: 45976
-MD5sum: 3f323c771521c923b5557d55b355b006
-SHA1: 84d795c072e74956c16c59885975e0bba6ca9c91
-SHA256: e5f8c9735de7462c55f12bcd34b582529df6182d31637fa37c63dbf118a5ebea
+Size: 45968
+MD5sum: b9727c4705a78d72530f5faab7ce25f3
+SHA1: 4472e56c7828cbc0738c57ec06fa6b05f2804c83
+SHA256: ca9b23f376cd7a6f5c88eb58951e40000c8ce373f136238baa22079c62491e25
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
