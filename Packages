@@ -134,14 +134,11 @@ Version: 1.6.8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
 Filename: debs/org.coolstar.libhooker-newabi_1.6.8_iphoneos-arm.deb
-Size: 46072
-MD5sum: 90dad8741b38fe5173eb05a93301b96c
-SHA1: a471e1a614761f5567a34e77f323c2034519c57b
-SHA256: 543cf37b7f798f7e6105abc793bed574811037660ea78f116d4ac42cb76db1cf
+Size: 45968
+MD5sum: a26e28d1a0b24dcad439983edcb0ebcc
+SHA1: 1a86653da09eb2db7dbfe88eaa1905143c661546
+SHA256: e855f417da09f4c2f9bf2b8073a459437e75a51962cbb1c7310a9275e7941285
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
@@ -154,14 +151,11 @@ Version: 1.6.9
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), firmware (<< 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
 Filename: debs/org.coolstar.libhooker-oldabi_1.6.9_iphoneos-arm.deb
-Size: 42320
-MD5sum: 58b0f8461ffdec86070e8940057ce7cf
-SHA1: 683370dff80ab4ad71009ff5de670eed6fe470e6
-SHA256: 1023103fa418f69f9c05b8ae1228c643635c8b8991facbb1be2eeb315f696b9b
+Size: 42216
+MD5sum: a328a06133b9f814c69606ad56e466aa
+SHA1: 6dbf788c5e5b0ab3aa7a53f5acb668f66874fe50
+SHA256: 5b3aa8d48322a64e0ebc3a75f03c1a79cd32bd52d92a96248c31562ade7bc07a
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
