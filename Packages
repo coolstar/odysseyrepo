@@ -235,20 +235,6 @@ Name: PreferenceLoader
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
 
 Package: taurine-permanent
-Version: 1.1.5
-Architecture: iphoneos-arm
-Maintainer: Odyssey Team
-Filename: debs/taurine-permanent_1.1.5_iphoneos-arm.deb
-Size: 30849196
-MD5sum: 1a9651466942a5e2ccd103fc33bbf11e
-SHA1: b7e55feef978ee73167e1d3c7a5a7784b74939ab
-SHA256: 1e89e5ccb192c50af3ebd361ebd2d3d7766310fa897b4c75a62d6ff97a4c2b79
-Section: Applications
-Priority: standard
-Homepage: https://taurine.app/
-Description: (Relatively) permanent install of Taurine.
-
-Package: taurine-permanent
 Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Odyssey Team
