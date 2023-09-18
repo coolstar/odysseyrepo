@@ -112,21 +112,21 @@ Name: libhooker (common)
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
 Package: org.coolstar.libhooker-configurator
-Version: 1.3
+Version: 1.4
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
-Filename: debs/org.coolstar.libhooker-configurator_1.3_iphoneos-arm.deb
-Size: 268708
-MD5sum: b4379721e1c144af4882cd679625cb11
-SHA1: feee271c46217dca779a4ae1f81c71cbca5cc292
-SHA256: 0861ac9bf94954c73affa4ef5d0cccb9084d0431c64f6434c83e12bab8bf249d
+Filename: debs/org.coolstar.libhooker-configurator_1.4_iphoneos-arm.deb
+Size: 269036
+MD5sum: 3418949fc82a1afdb93935c8e7900855
+SHA1: 94bdfa21f9736add524a891fcd544d2c29e81e65
+SHA256: 00952eb154b13415704cc8fd48610920a66ef2fb45bf0f079381961904249a2b
 Section: Packaging
 Priority: required
 Description: Configuration Utility for libhooker
 Author: CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
-Name: libhooker-configurator
+Name: libhooker configurator
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
 
 Package: org.coolstar.libhooker-newabi
