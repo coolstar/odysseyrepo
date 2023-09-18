@@ -66,8 +66,7 @@
 				},
 				{
 					"class":"DepictionMarkdownView",
-					"markdown":"1. Adds support for kfd exploit\n2. Adds support for iOS 14.4 - 14.8.1\n3. Backports remaining changes from 
-Taurine15\n4. Add Compatibility layer for old arm64e ABI on iOS 14.5+",
+					"markdown":"1. Adds support for kfd exploit\n2. Adds support for iOS 14.4 - 14.8.1\n3. Backports remaining changes from Taurine15\n4. Add Compatibility layer for old arm64e ABI on iOS 14.5+",
 					"useSpacing":true
 				},
 				{
