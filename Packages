@@ -248,3 +248,20 @@ Priority: standard
 Homepage: https://taurine.app/
 Description: (Relatively) permanent install of Taurine.
 
+Package: taurine-permanent
+Version: 1.1.7
+Architecture: iphoneos-arm
+Maintainer: Odyssey Team
+Filename: debs/taurine-permanent_1.1.7_iphoneos-arm.deb
+Size: 30133688
+MD5sum: 7203eb6d4d1de0ae2f400da23eaf2dd4
+SHA1: 767534e5abf83b1832f8bb0fe0a2c3fda06ee2a7
+SHA256: 42234d4d1ac1d9f102142e2dd025e7f18d530bd2c081e34fcd2bcd38bc59675f
+Section: Applications
+Priority: standard
+Homepage: https://taurine.app/
+Description: (Relatively) permanent install of Taurine.
+Icon: https://repo.theodyssey.dev/depictions/icons/taurine.png
+Name: Taurine (Permanent)
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/taurine-permanent.json
+
