@@ -22,7 +22,7 @@
 				},
 				{
 					"class":"DepictionTableTextView",
-					"text":"September 18, 2023",
+					"text":"September 19, 2023",
 					"title":"Updated"
 				},
 				{
@@ -57,6 +57,18 @@
 			"class":"DepictionStackView",
 			"tabname":"Changelog",
 			"views":[
+				{
+
+					"class":"DepictionSubheaderView",
+					"title":"1.1.7-2",
+					"useBoldText":true,
+					"useBottomMargin":false
+				},
+				{
+					"class":"DepictionMarkdownView",
+					"markdown":"1. Fix kfd not working on A11 14.0 - 14.4.x",
+					"useSpacing":true
+				},
 				{
 
 					"class":"DepictionSubheaderView",
