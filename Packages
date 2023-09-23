@@ -235,20 +235,6 @@ Name: PreferenceLoader
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
 
 Package: taurine-permanent
-Version: 1.1.6
-Architecture: iphoneos-arm
-Maintainer: Odyssey Team
-Filename: debs/taurine-permanent_1.1.6_iphoneos-arm.deb
-Size: 29968192
-MD5sum: 6e5b054bd05234472f0d5f8f3421e121
-SHA1: 3ea09b0163e555c7aa201e6dff4b45ba74cb5c9a
-SHA256: 33d30b64e9c70dd7923f20d9f4b404bb890db3c4076e5337861b8094270935b4
-Section: Applications
-Priority: standard
-Homepage: https://taurine.app/
-Description: (Relatively) permanent install of Taurine.
-
-Package: taurine-permanent
 Version: 1.1.7
 Architecture: iphoneos-arm
 Maintainer: Odyssey Team
@@ -266,14 +252,14 @@ Name: Taurine (Permanent)
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/taurine-permanent.json
 
 Package: taurine-permanent
-Version: 1.1.7-2
+Version: 1.1.7-3
 Architecture: iphoneos-arm
 Maintainer: Odyssey Team
-Filename: debs/taurine-permanent_1.1.7-2_iphoneos-arm.deb
-Size: 30133248
-MD5sum: 3fd046039e1cee66f3c9974f597d6b93
-SHA1: 52cf02d62ef27e027da8ef1c99dab3a48dba5aa4
-SHA256: a3a45ef6950d44b74802b023f82b00a4c4abf9af9d7e26de7a95c65c83151e7a
+Filename: debs/taurine-permanent_1.1.7-3_iphoneos-arm.deb
+Size: 30133276
+MD5sum: 05901275e64603311d97c47bb8720470
+SHA1: 410a14012fd01403f5fe823208a18decbf2d5a1f
+SHA256: caa65c79f43c56f7300ec9ff7e7583bfa539499baf6d4b9729ed8515e5220418
 Section: Applications
 Priority: standard
 Homepage: https://taurine.app/
